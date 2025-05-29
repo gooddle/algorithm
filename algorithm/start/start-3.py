@@ -39,9 +39,13 @@ for i in range(a, b + 1):
 print(f'{a}부터 {b} 사이 원소 합은 {sum3} ')
 
 ## 요소 합 과정 나타내기
+## c와 d가 같으면 c = d 출력
+## 1~5 라면 1+2+3+4+5 = 15
 print('c 부터 d 까지 정수의 합 계산')
 c = int(input("정수를 입력하세요:"))
 d = int(input("정수를 입력하세요 :"))
+if c > d:
+    c,d = d,c
 sum4 = 0
 for i in range(c, d + 1):
     if i < d:
