@@ -39,8 +39,6 @@ for i in range(a, b + 1):
 print(f'{a}부터 {b} 사이 원소 합은 {sum3} ')
 
 ## 요소 합 과정 나타내기
-
-
 print('c 부터 d 까지 정수의 합 계산')
 c = int(input("정수를 입력하세요:"))
 d = int(input("정수를 입력하세요 :"))
