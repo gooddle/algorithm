@@ -55,3 +55,19 @@ for i in range(c, d + 1):
     sum4 += i
 
 print(sum4)
+
+## 개선 for문 안에 if문 제거
+print('f 부터 e 까지 정수의 합 계산')
+f = int(input("정수를 입력하세요:"))
+e = int(input("정수를 입력하세요 :"))
+
+if f > e:
+    f,e = e,f
+sum5 = 0
+for i in range(f,e):
+    print(f'{i} + ', end = '')
+    sum5 += i
+
+print(f'{e} = ', end = '')
+sum5 += e
+print(sum5)
